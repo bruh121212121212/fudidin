@@ -16,7 +16,7 @@ import {
 
 export default {
     data: new SlashCommandBuilder()
-        .setName("entreparacriar")
+        .setName("jointocreate")
         .setDescription("Manage Join to Create voice channels system.")
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
         .setDMPermission(false)
